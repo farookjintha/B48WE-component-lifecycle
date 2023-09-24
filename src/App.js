@@ -9,15 +9,16 @@ import FCompC from "./components/FunctionalComponents/FCompC/fcompC";
 function App() {
   return (
     <div className="App">
-      <h2>Class Components</h2>
+      {/* <h2>Class Components</h2> */}
       {/* <CompA /> */}
       {/* <CompB /> */}
-      <CompC />
+      {/* <CompC /> */}
 
-      {/* <h2>Functional Components</h2>
-      <FCompA />
-      <FCompB />
+      <h2>Functional Components</h2>
+      {/* <FCompA /> */}
+      {/* <FCompB />
       <FCompC /> */}
+      <FCompB />
     </div>
   );
 }

@@ -5,6 +5,7 @@ class CompD extends React.Component {
     super(props);
   }
 
+  // lifecycle method - unmounting
   componentWillUnmount = () => {
     console.log("Component will unmount (Child) is called...");
   };

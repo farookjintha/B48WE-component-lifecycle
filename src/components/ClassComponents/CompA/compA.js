@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import CompB from "../CompB/compB";
 
-class CompA extends React.Component {
+class CompA extends Component {
   constructor(props) {
     super(props);
 
