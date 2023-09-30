@@ -44,7 +44,9 @@ const FCompB = (props) => {
       <h3>Toggle is {toggle ? "ON" : "OFF"}</h3>
       <button onClick={handleToggle}>Switch Toggle</button>
 
-      {count > 15 && <FCompC />}
+      {toggle && <FCompC />}
+
+      {/* {count < 15 && <FCompC />} */}
     </div>
   );
 };
